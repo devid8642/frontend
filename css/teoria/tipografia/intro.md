@@ -64,4 +64,4 @@ São fontes que tentam imitar a escrita humana, possuem um nível de leiturabili
 
 ### Fontes display
 
-São todas as fontes que não se encaixam em nenhum das classificações acima, são basicamente as fontes com um nível de decoração dos glifos muito maior. São fontes ideais para títul 
+São todas as fontes que não se encaixam em nenhum das classificações acima, são basicamente as fontes com um nível de decoração dos glifos muito maior. São fontes ideais para títulos chamativos. 
