@@ -17,5 +17,4 @@ Uma forma mais comum de utilizar cores no CSS é através de códigos hexadecima
 
 O código RGB está baseado nas cores primárias. Ele consiste de três números indicando a "quantidade" de vermelho, verde e azul nessa ordem. Essa quantidade varia de 0 a 255 e cada variação nessa quantidade produz uma cor diferente. Aqui também é possível representar praticamente qualquer cor do espectro.
 
-## Cores por hsl
-
+Essas são as principais formas de usar cores no CSS, no entanto existem outras.
