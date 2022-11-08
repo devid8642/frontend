@@ -1,0 +1,16 @@
+body {
+	font-family: sans-serif;
+	background-color: rgb(205, 255, 203);
+}
+
+h1 {
+	color: rgb(4, 109, 0);
+}
+
+h1#principal {
+	text-align: center;
+}
+
+h2 {
+	color:  rgb(73, 109, 71);
+}
