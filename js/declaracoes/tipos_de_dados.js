@@ -26,3 +26,16 @@ console.log(typeof arr); // Object
 const obj = {nome: "Devid", idade: 17};
 console.log(obj.nome);
 console.log(obj.idade);
+
+// Strings
+let primeiroNome = "Devid";
+let segundoNome = "Teofilo";
+console.log(primeiroNome + " " + segundoNome);
+
+// Caracterres de Escape
+/*
+	\" -> "
+	\' -> '
+	\\ ->  \
+*/
+console.log("A variável \"a\" vale 5");
