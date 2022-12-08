@@ -1,9 +1,9 @@
-function foo(x, y) {
-	return x * y;
+// Fatorial
+
+function fat(n) {
+	if (n == 0 || n == 1)
+		return 1;
+	return n * fat(n - 1);
 }
 
-let x = foo(4, 5);
-console.log(x);
-
-console.log(foo);
-console.log(typeof foo);
+console.log(fat(5));
