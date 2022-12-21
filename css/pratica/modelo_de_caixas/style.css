@@ -1,0 +1,43 @@
+body {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #212121;
+	color: #eae1e6;
+	padding: 5px;
+}
+
+header > h1 {
+	display: inline;
+	margin-right: 900px;
+}
+
+header > nav {
+	display: inline;
+}
+
+nav > a {
+	text-decoration: none;
+	color: #eae1e6;
+	margin-right: 10px;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+main {
+	width: 750px;
+	padding: 10px;
+	margin: auto;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+footer {
+	background-color: #212121;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
