@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+	font-family: idroid;
+	src: url(fontes/idroid.otf)
+}
+
+body {
+	background-color: lightgreen;
+	font-family: Arial;
+	margin: 0px;
+}
+
+header {
+	background: linear-gradient(#3DDC84, #063D1E);
+	color: white;
+}
+
+header > h1 {
+	text-align: center;
+	padding: 20px;
+	margin: 0px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+header > p {
+	text-align: center;
+	padding: 10px;
+}
+
+nav > a {
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+main {
+	width: 750px;
+	padding: 10px;
+	margin: auto;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background-color: white;
+}
+
+h2 {
+	margin: 0px;
+}
+
+h3 {
+	background-image: linear-gradient(to right, #83E1AD, white);
+}
+
+section > p {
+	text-align: justify;
+}
+
+#titulo {
+	font-family: idroid;
+	color: #063D1E;
+}
+
+#extra {
+	background-color: #C5EBD6;
+	border-radius: 10px;
+}
+
+h4 {
+	margin: 0px;
+	background-color: #2FA866;
+	color: white;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#conteudo_extra {
+	padding: 10px;
+}
+
+footer {
+	background-color: #063D1E;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+footer > p {
+	text-align: center;
+	color: white;
+	margin: 0px;
+}
