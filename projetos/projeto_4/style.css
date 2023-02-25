@@ -1,0 +1,32 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: black;
+	color: white;
+}
+
+header > h1 {
+	font-size: 100px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+header > p {
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+header > p > a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header > p > a:hover {
+	text-decoration: underline;
+}
