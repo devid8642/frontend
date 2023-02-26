@@ -23,13 +23,13 @@ header > p {
 	text-align: center;
 }
 
-header > p > a {
+.link {
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
 }
 
-header > p > a:hover {
+.link:hover {
 	text-decoration: underline;
 }
 
@@ -63,6 +63,14 @@ div.fundo_transparente {
 }
 
 #fundo2 {
-	background: white url('imagens/background002.jpg') center center no-repeat fixed;
+	background: white url('imagens/background003.jpg') center center no-repeat fixed;
 	background-size: cover;
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
