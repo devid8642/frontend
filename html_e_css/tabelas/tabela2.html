@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body {
+			font-family: sans-serif;
+		}
+		table {
+			width: 300px;
+			border-collapse: collapse;
+			position: relative;
+		}
+		caption {
+			padding-bottom: 5px;
+		}
+		thead > tr > th {
+			position: sticky;
+			top: 0;
+			background-color: lightgray;
+		}
+		th {
+			background-color: lightgray;
+		}
+		td, th {
+			border: 1px solid black;
+			padding: 10px;
+		}
+	</style>
+	<title>Tabela 2</title>
+</head>
+<body>
+	<h1>Criando tabelas maiores</h1>
+	<table>
+		<caption>Membros do grupo e suas idades</caption>
+		
+		<thead>
+			<th scope="col">Membro</th>
+			<th scope="col">Idade</th>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Nathan</td>
+				<td>19</td>
+			</tr>
+			<tr>
+				<td>Devid</td>
+				<td>18</td>
+			</tr>
+			<tr>
+				<td>Petro</td>
+				<td>17</td>
+			</tr>
+			<tr>
+				<td>Maikon</td>
+				<td>17</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<th scope="row">Média de idades</th>
+			<td>17.75</td>
+		</tfoot>
+	</table>
+</body>
+</html>
