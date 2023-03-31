@@ -37,3 +37,13 @@ iframe#tela {
     height: 505px;
     width: 266px;
 }
+
+section#redes {
+    text-align: right;
+}
+
+section#redes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}
