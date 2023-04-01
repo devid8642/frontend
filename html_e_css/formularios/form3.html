@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <h1>Formulário Escolar</h1>
+    <form action="" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required maxlength="255">
+        </div>
+
+        <div>
+            <label for="nota">Média:</label>
+            <input type="number" name="media" id="media" min="0" max="10" step="0.1" required>
+        </div>
+
+        <div>
+            <label for="periodo">Período Letivo:</label>
+            <input type="month" name="periodo" id="periodo" value="2023-04" required>
+        </div>
+
+        <div>
+            <label for="dia_prova">Dia da Prova:</label>
+            <input type="date" name="dia_prova" id="dia_prova" value="2023-04-01">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar dados">
+        </div>
+    </form>
+</body>
+</html>
