@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 6</title>
+</head>
+<body>
+    <h1>To com fome já bixo</h1>
+    <form action="">
+        <label for="op">Opções:</label>
+        <select name="op" id="op">
+            <optgroup label="Grupo de opções">
+                <option value="op1">Opção 1 </option>
+                <option value="op2">Opção 2</option>
+                <option value="op3">Opção 3</option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="opc">Opções em texto:</label>
+        <input type="text" name="opc" id="opc" list="opcoes">
+        <datalist id="opcoes">
+            <option>Opção 1 </option>
+            <option>Opção 2</option>
+            <option>Opção 3</option>
+        </datalist>
+
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+</html>
