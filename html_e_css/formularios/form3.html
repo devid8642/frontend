@@ -21,18 +21,35 @@
 
         <div>
             <label for="periodo">Período Letivo:</label>
-            <input type="month" name="periodo" id="periodo" value="2023-04" required>
+            <input type="month" name="periodo" id="periodo" required placeholder="formato: mês-ano">
         </div>
 
         <div>
             <label for="dia_prova">Dia da Prova:</label>
-            <input type="date" name="dia_prova" id="dia_prova" value="2023-04-01">
+            <input type="date" name="dia_prova" id="dia_prova" value="" required>
         </div>
 
         <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar dados">
         </div>
+
+        <script>
+            data = new Date();
+            ano = data.getFullYear();
+            mes = data.getMonth();
+            dia = data.getDate();
+            if (mes >= 0 && mes <= 8) {
+                mes++;
+                mes = `0${mes}`;
+            }
+            if (dia >= 1 && dia <= 9) {
+                dia = `0${dia}`;
+            }
+            data_atual = ano + "-" + mes + "-" + dia;
+            dia_prova = document.getElementById("dia_prova");
+            dia_prova.value = data_atual;
+        </script>
     </form>
 </body>
 </html>
