@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="stylesheet" href="styles/style.css">
     <title>Medie Query 4</title>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span class="material-symbols-outlined" id="burger" onclick="cliqueMenu()">menu</span>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -32,5 +34,15 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur magni enim ad optio commodi obcaecati expedita delectus quas voluptas unde architecto, ut deleniti molestias repudiandae modi numquam exercitationem quasi. Quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, ducimus mollitia autem a reprehenderit rerum officiis nam, sequi recusandae voluptate incidunt iste voluptatibus, nesciunt ad earum dolorem repudiandae illo culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sit minus esse, ad ratione delectus aut earum magni doloremque ipsa neque, laborum nisi dolore ducimus, aliquid iste quae. Temporibus, hic?
         </p>
     </main>
+    <script>
+        function cliqueMenu() {
+            if (menu.style.display == 'none') {
+                menu.style.display = 'block';
+            }
+            else {
+                menu.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 </html>
