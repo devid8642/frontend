@@ -3,6 +3,7 @@
 @media only screen and (min-width: 768px) and (max-width: 992px) {
     section {
         width: 90vw;
+        height: 350px;
     }
 
     div#imagem {
@@ -23,6 +24,7 @@
 @media only screen and (min-width: 993px) {
     section {
         width: 950px;
+        height: 450px;
     }
 
     div#imagem {
