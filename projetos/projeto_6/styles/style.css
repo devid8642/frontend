@@ -36,6 +36,8 @@ section {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 div#imagem {
@@ -43,6 +45,8 @@ div#imagem {
     background: #5f2c82 url('../images/entrada.jpg') no-repeat center center;
     background-size: cover;
     height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 div#formulario {
