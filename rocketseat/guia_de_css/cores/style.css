@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#vermelho {
+    background-color: rgb(255, 0, 0);
+}
+
+#verde {
+    background-color: rgb(0, 255, 0);
+}
+
+#azul {
+    background-color: rgb(0, 0, 255);
+}
+
+#aleatoria {
+    background-color: rgb(124, 49, 131);
+}
