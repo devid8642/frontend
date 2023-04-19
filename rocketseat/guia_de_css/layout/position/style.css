@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+#box1 {
+    background-color: red;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+#box2 {
+    background-color: darkcyan;
+}
+
+#box3 {
+    background-color: purple;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+
+header {
+    position: relative;
+}
+
+.cabecalho {
+    position: absolute;
+    left: 50px;
+}
