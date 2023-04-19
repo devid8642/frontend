@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#box1 {
+    background-color: lightgreen;
+}
+
+#box2 {
+    background-color: darkcyan;
+}
+
+#box3 {
+    background-color: purple;
+}
+
+#container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+}
