@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.anotacao {
+    font-size: medium;
+    margin: 20px;
+}
+
+.opcoes {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+p.opcoes-item {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+button {
+    padding: 5px;
+}
+
+.container {
+    background-color: rgba(0, 0, 255, .3);
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.item {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 0, 0, .3);
+    margin: 10px;
+}
+
+#com_wrap {
+    flex-wrap: wrap;
+}

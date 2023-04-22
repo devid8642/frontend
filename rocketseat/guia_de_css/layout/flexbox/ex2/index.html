@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <h1>Exemplo de flexbox 2</h1>
+    
+    <p class="anotacao">
+        Abaixo temos uma div que está é um container e várias divs que são de filhos dessa div principal. Além disso, tem-se as propriedades relativas ao flexbox e alguns botões para alterar os valores dessas propriedades.
+    </p>
+
+    <div class="opcoes">
+        <p class="opcoes-item">
+            flex-direction:
+        </p>
+        <button class="opcoes-item" 
+        onclick="document.getElementById('container').style.flexDirection = 'row';">
+            row
+        </button>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.flexDirection = 'column';">
+            column
+        </button>
+    </div>
+
+    <div class="opcoes">
+        <p class="opcoes-item">
+            justify-content:
+        </p>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.justifyContent = 'start';">
+            start
+        </button>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.justifyContent = 'center';">
+            center
+        </button>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.justifyContent = 'end';">
+            end
+        </button>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.justifyContent = 'space-between';">
+            space-between
+        </button>
+    </div>
+
+    <div class="opcoes">
+        <p class="opcoes-item">
+            align-items:
+        </p>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.alignItems = 'start';">
+            start
+        </button>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.alignItems = 'center';">
+            center
+        </button>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.alignItems = 'end';">
+            end
+        </button>
+        <button class="opcoes-item"
+        onclick="document.getElementById('container').style.alignItems = 'space-between';">
+            space-between
+        </button>
+    </div>
+    <div class="container" id="container">
+        <div class="item" id="item">
+        </div>
+        <div class="item" id="item">
+        </div>
+        <div class="item" id="item">
+        </div>
+        <div class="item"></div>
+    </div>
+    <p class="anotacao">
+        Com a propriedade flex-wrap é possível lidar com a largura da div e com um certo conteúdo dentro dela de forma automática. O conteúdo se distribuirá dentro da div sem extrapolar o perímetro da div e tentando o máximo possível manter o conteúdo no tamanho especificado.
+    </p>
+    <p class="anotacao">
+        Sem wrap. Os elementos abaixo foram dimunídos pois a propriedade flex-shrink <strong>de cada elemento filho de container</strong> está setada como 1.
+    </p>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <p class="anotacao">
+        Com wrap
+    </p>
+    <div class="container" id="com_wrap">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
