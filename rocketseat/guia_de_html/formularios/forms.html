@@ -11,6 +11,11 @@
         li {
             margin-bottom: 10px;
         }
+        form {
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     </style>
     <title>Formulários</title>
 </head>
@@ -38,6 +43,91 @@
         <li>
             Placeholder: Permite a adiação de texto no fundo de um input para indicar o tipo de dado que deve ser preenchido.
         </li>
+    </ul>
+    <h2>Tipos de inputs</h2>
+    <ul>
+        <li>
+            Text: O mais simples, permite a entrada de strings de uma forma em geral. Com os atributos minlength e maxlength é possível especificar tamanho mínimo e máximo respectivamente. Exemplo:
+        </li>
+        <form>
+            <input type="text" minlength="8" maxlength="255" placeholder="Qualquer texto">
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            Password: Também aceita dados do tipo string porém os caracteres ficam mascarados. Através do atributo pattern e usando expressões regulares é possível especificar regras para senhas ou ate mesmo emails. Exemplo:
+        </li>
+        <form>
+            <input type="password" minlength="8" required placeholder="Senha">
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            Email: Também aceita dados do tipo string mas possui um pattern simples de validação de emails por padrão.
+        </li>
+        <form>
+            <input type="email" maxlength="255" placeholder="Email">
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            URL: Input de uma string que espera receber uma URL.
+        </li>
+        <form>
+            <input type="url" placeholder="http://example.com">
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            File: Permite realizer o input de arquivos em geral. Por meio do atributo accept é possível especificar o tipo de arquivo que será aceito. Na MDN docs todos os tipos são descritos. Exemplo:
+        </li>
+        <form>
+            <input type="file" accept="image/*">
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            Checkbox: É um input no formato de uma caixa de marcação. Exemplo:
+        </li>
+        <form>
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" id="checkbox">
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            Hidden: É um input oculto para enviar valores como IDs e hora atual.
+        </li>
+        <li>
+            Radio: É um input também na forma de uma caixa de marcação porém possibilita apenas uma marcação. Exemplo:
+        </li>
+        <form>
+            <label for="sim">Sim</label>
+            <input type="radio" name="radio" id="sim" checked>
+            <label for="nao">Não</label>
+            <input type="radio" name="radio" id="nao">
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            Textarea: Funciona como o input de tipo text porém é indicado para receber inputs de texto realmente longos. Para isso os atributos cols e rows permitem especificar o tamanho do intup. Exemplo:
+        </li>
+        <form>
+            <textarea cols="30" rows="10" placeholder="Digite seu texto aqui"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            Select: Permite um input no formato de uma caixa de seleção para uma ou mais opções a serem selecionadas. Exemplo:
+        </li>
+        <form>
+            <label for="select">Selecione alguma opção</label>
+            <select id="select">
+                <option value="op1">Opção 1</option>
+                <option value="op2">Opção 2</option>
+                <option value="op3">Opção 3</option>
+            </select>
+            <button type="submit">Enviar</button>
+        </form>
+        <li>
+            Number: Input semelhante a texto porém aceita apenas números. Exemplo:
+        </li>
+        <form>
+            <input type="number" min="0" max="100" step="5" placeholder="Digite um número (0 - 100)" size="30">
+            <button type="submit">Enviar</button>
+        </form>
     </ul>
 </body>
 </html>
