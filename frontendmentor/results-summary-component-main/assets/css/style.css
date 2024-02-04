@@ -4,8 +4,25 @@ body {
   font-size: 1.8rem;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.result-component {
+  background-color: var(--white);
+  width: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: var(--pale_blue);
+  border-radius: 2rem;
+}
+
 .attribution {
-  font-size: 11px;
   text-align: center;
 }
 .attribution a {
