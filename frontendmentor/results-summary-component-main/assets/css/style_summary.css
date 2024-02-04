@@ -16,12 +16,20 @@
   border-radius: 2rem;
 }
 
-.summary-result-primary {
+.summary-result-reaction {
   background-color: hsla(0, 100%, 67%, 0.1);
 }
 
-.summary-result-secondary {
+.summary-result-memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.summary-result-verbal {
   background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.summary-result-visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
 }
 
 .summary-result-type {
