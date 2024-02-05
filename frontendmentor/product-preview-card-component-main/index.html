@@ -13,17 +13,24 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
 
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
     <main class="container">
       <div class="product-card">
-        <img
-          class="product-image"
-          src="images/image-product-desktop.jpg"
-          alt="Perfume"
-        />
+        <picture>
+          <source
+            media="(max-width: 412px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img
+            class="product-image"
+            src="images/image-product-desktop.jpg"
+            alt="Perfume"
+          />
+        </picture>
 
         <section class="product-info">
           <h1 class="product-type">Perfume</h1>
