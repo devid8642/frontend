@@ -10,48 +10,73 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Frontend Mentor | NFT preview card component</title>
-
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <main>
-      <div>
-        <img src="./images/image-equilibrium.jpg" alt="Equilibrium" />
-        <h1>Equilibrium #3429</h1>
-        <p>Our Equilibrium collection promotes balance and calm.</p>
-        <div>
-          <p>
+    <main class="container">
+      <div class="card">
+        <div class="card-image">
+          <img
+            class="card-image-principal"
+            src="images/image-equilibrium.jpg"
+            alt="Equilibrium"
+          />
+          <img
+            class="card-image-hover"
+            src="images/icon-view.svg"
+            alt="Icon View"
+          />
+        </div>
+        <h1 class="card-title">
+          <a class="card-title-link" href="#">Equilibrium #3429</a>
+        </h1>
+        <p class="card-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="card-info">
+          <p class="card-ethereum-price">
             <img src="images/icon-ethereum.svg" alt="Ehereum Icon" />
             0.041 ETH
           </p>
-          <p>
+          <p class="card-date">
             <img src="images/icon-clock.svg" alt="Clock Icon" />
             3 days left
           </p>
         </div>
-        <hr />
-        <p>
-          <img src="images/image-avatar.png" alt="An Avatar Image" />
-          Creation of Jules Wyvern
-        </p>
+
+        <div class="separation-line"></div>
+
+        <div class="card-footer">
+          <img
+            class="card-author-image"
+            src="images/image-avatar.png"
+            alt="An Avatar Image"
+          />
+          <p class="card-footer-text">
+            Creation of <a href="#" class="card-author-name">Jules Wyvern</a>
+          </p>
+        </div>
       </div>
     </main>
 
     <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noreferrer noopener"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a
+        href="https://devid8642.github.io"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Dêvid Teófilo</a
+      >.
     </footer>
   </body>
 </html>
