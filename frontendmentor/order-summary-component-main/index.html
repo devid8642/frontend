@@ -10,62 +10,60 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Frontend Mentor | Order summary card</title>
-
-    <style>
-      .sr-only {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        padding: 0;
-        margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
-        border: 0;
-      }
-
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <main>
-      <h1 class="sr-only">Frontend Mentor project submission</h1>
+    <main class="container">
+      <h1 class="sr-only">Frontend Mentor Project Submission</h1>
 
-      <article>
-        <img src="images/illustration-hero.svg" alt="An Illustration Hero" />
-        <h2>Order Summary</h2>
-        <p>
+      <article class="order-component">
+        <img
+          class="order-image"
+          src="images/illustration-hero.svg"
+          alt="An Illustration Hero"
+        />
+        <h2 class="order-title">Order Summary</h2>
+        <p class="order-description">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
 
-        <div>
-          <img src="images/icon-music.svg" alt="An Icon Music">
-          <p>Annual Plan</p>
-          <p>$59.99/year</p>
-          <p>Change</p>
+        <div class="order-info">
+          <div class="order-info-type">
+            <img src="images/icon-music.svg" alt="An Icon Music" />
+            <div>
+              <p class="order-info-type-name">Annual Plan</p>
+              <p class="order-info-price">$59.99/year</p>
+            </div>
+          </div>
+
+          <button class="order-info-change">Change</button>
         </div>
 
-        <button>Proceed to Payment</button>
+        <button class="order-cta">Proceed to Payment</button>
 
-        <button>Cancel Order</button>
+        <button class="order-cancel">Cancel Order</button>
       </article>
     </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener noreferrer"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by
+      <a
+        href="htpps://devid8642.github.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Dêvid Teófilo</a
+      >.
+    </footer>
   </body>
 </html>
