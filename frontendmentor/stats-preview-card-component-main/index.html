@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
@@ -23,7 +24,7 @@
       <article class="stats-card">
         <section class="stats-card-text-section">
           <h2 class="stats-card-title">
-            Get <span class="highlight-text">insights</span> that help your
+            Get <strong class="highlight-text">insights</strong> that help your
             business grow.
           </h2>
 
@@ -51,11 +52,17 @@
         </section>
 
         <section class="stats-card-image-section">
-          <img
-            class="stats-card-image"
-            src="images/image-header-desktop.jpg"
-            alt="Image Header"
-          />
+          <picture>
+            <source
+              media="(max-width: 412px)"
+              srcset="images/image-header-mobile.jpg"
+            />
+            <img
+              class="stats-card-image"
+              src="images/image-header-desktop.jpg"
+              alt="Image Header"
+            />
+          </picture>
         </section>
       </article>
     </main>
