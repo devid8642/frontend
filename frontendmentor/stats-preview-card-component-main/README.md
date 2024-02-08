@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/stats-card-component-solution-mkH-qIjRpA)
 - [Live Site URL](https://devid8642.github.io/projetos_frontend/stats-card-component/index.html)
 
 ## My process
